@@ -41,7 +41,13 @@ p {
 .container {
   max-width: 1200px;
   width: 90%;
+  margin: 0 auto;
 }
 .row {
   display: flex;
+}
+
+// HEADER
+header {
+  padding-top: 2rem;
 }
