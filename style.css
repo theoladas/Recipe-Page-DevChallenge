@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+}
+
+.row {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
