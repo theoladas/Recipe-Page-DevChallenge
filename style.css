@@ -32,16 +32,16 @@ h3 {
 }
 
 h4 {
-  font-size: 14px;
-  font-weight: 500;
-  font-style: italic;
-  padding-bottom: 1rem;
+  font-size: 16px;
+  color: #828282;
+  font-weight: 400;
 }
 
 h5 {
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
+  padding-bottom: 1rem;
 }
 
 h6 {
@@ -53,6 +53,7 @@ h6 {
 
 p {
   font-size: 16px;
+  font-weight: 400;
   padding-bottom: 0.5rem;
 }
 
@@ -95,12 +96,18 @@ img {
 header {
   padding-top: 2rem;
 }
+header .container h5 {
+  color: #4f4f4f;
+}
 
 .container .row {
   justify-content: space-between;
 }
 .container .row .info {
   width: 70%;
+}
+.container .row .info p {
+  width: 90%;
 }
 .container .row .card {
   align-self: flex-start;
@@ -126,4 +133,40 @@ header {
 }
 .container .row .card .column span {
   color: #f2994a;
+}
+
+.instructions .container .row {
+  justify-content: flex-start;
+  align-items: center;
+}
+.instructions .container .row .image {
+  width: 20px;
+  height: 20px;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+.instructions .container .row p {
+  width: 70%;
+  padding: 0rem 10px;
+}
+.instructions .container h4,
+.instructions .container a {
+  padding: 2rem 0rem;
+  color: #828282;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 4em;
+}
+footer .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .info p,
+footer .info a {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

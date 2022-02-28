@@ -27,15 +27,15 @@ h3 {
   padding: 1rem 0rem;
 }
 h4 {
-  font-size: 14px;
-  font-weight: 500;
-  font-style: italic;
-  padding-bottom: 1rem;
+  font-size: 16px;
+  color: #828282;
+  font-weight: 400;
 }
 h5 {
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
+  padding-bottom: 1rem;
 }
 h6 {
   font-size: 10px;
@@ -45,6 +45,7 @@ h6 {
 }
 p {
   font-size: 16px;
+  font-weight: 400;
   padding-bottom: 0.5rem;
 }
 input[type="checkbox"] {
@@ -79,6 +80,11 @@ img {
 // HEADER
 header {
   padding-top: 2rem;
+  .container {
+    h5 {
+      color: #4f4f4f;
+    }
+  }
 }
 
 // HERO
@@ -87,6 +93,9 @@ header {
     justify-content: space-between;
     .info {
       width: 70%;
+      p {
+        width: 90%;
+      }
     }
     .card {
       align-self: flex-start;
@@ -112,6 +121,48 @@ header {
           color: #f2994a;
         }
       }
+    }
+  }
+}
+
+// INSTRUCTIONS
+.instructions {
+  .container {
+    .row {
+      justify-content: flex-start;
+      align-items: center;
+      .image {
+        width: 20px;
+        height: 20px;
+        justify-self: flex-start;
+        align-self: flex-start;
+      }
+      p {
+        width: 70%;
+        padding: 0rem 10px;
+      }
+    }
+    h4,
+    a {
+      padding: 2rem 0rem;
+      color: #828282;
+      text-decoration: none;
+    }
+  }
+}
+
+// FOOTER
+footer {
+  padding-top: 4em;
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p,
+    a {
+      color: #828282;
+      font-size: 14px;
+      font-weight: 700;
     }
   }
 }
