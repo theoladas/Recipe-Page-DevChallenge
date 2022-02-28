@@ -13,6 +13,7 @@ h1 {
   font-family: "Playfair Display", serif;
   font-size: 48px;
   font-weight: 700;
+  padding-bottom: 1rem;
 }
 
 h2 {
@@ -33,6 +34,7 @@ h4 {
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
+  padding-bottom: 1rem;
 }
 
 h5 {
@@ -54,6 +56,15 @@ p {
 
 .row {
   display: flex;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fa-solid {
+  color: #c4c4c4;
 }
 
 header {
