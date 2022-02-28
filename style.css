@@ -112,42 +112,67 @@ header .container h5 {
 
 .container .row {
   justify-content: space-between;
-  align-items: center;
+}
+@media (max-width: 768px) {
+  .container .row {
+    flex-wrap: wrap;
+  }
 }
 .container .row .info {
   width: 70%;
+}
+@media (max-width: 768px) {
+  .container .row .info {
+    order: 2;
+    width: 100%;
+  }
 }
 .container .row .info p {
   width: 90%;
 }
 .container .row .card {
-  align-self: flex-start;
-  justify-content: center;
-  width: 20%;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
+  padding: 3rem;
+  max-width: 20%;
 }
-.container .row .card .row {
-  max-width: 90%;
-  justify-content: center;
-}
-.container .row .card .row .fa-clock {
-  align-self: flex-start;
+@media (max-width: 768px) {
+  .container .row .card {
+    order: 1;
+    width: 100%;
+    box-shadow: none;
+  }
 }
 .container .row .card .yields {
-  padding: 1rem 0rem;
+  max-width: 90%;
+}
+.container .row .card .yields .item {
+  display: flex;
   align-items: center;
 }
-.container .row .card .column {
-  width: 50%;
-  align-items: flex-start;
-  padding-left: 20px;
+.container .row .card .yields .item .fa-solid {
+  font-size: 20px;
+  padding-right: 20px;
 }
-.container .row .card .column h5 {
+.container .row .card .yields h5 {
   font-style: normal;
-}
-.container .row .card .column span {
   color: #f2994a;
+}
+.container .row .card .row {
+  flex-wrap: wrap;
+}
+.container .row .card .row .item {
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.container .row .card .row .item .fa-solid {
+  font-size: 20px;
+  padding-right: 20px;
+}
+.container .row .card .row .item h5 {
+  font-style: normal;
 }
 
 .instructions .container .row {
