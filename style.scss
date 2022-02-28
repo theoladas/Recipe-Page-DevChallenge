@@ -50,6 +50,9 @@ p {
 }
 input[type="checkbox"] {
   margin-right: 10px;
+  @media (max-width: 520px) {
+    margin-right: 5px;
+  }
 }
 .container {
   max-width: 1200px;
@@ -133,9 +136,29 @@ header {
         @media (max-width: 600px) {
           padding: 0;
         }
+        @media (max-width: 520px) {
+          font-size: 22px;
+        }
+        @media (max-width: 420px) {
+          font-size: 18px;
+        }
+      }
+      h3 {
+        @media (max-width: 520px) {
+          font-size: 16px;
+        }
+        @media (max-width: 420px) {
+          font-size: 14px;
+        }
       }
       p {
         width: 90%;
+        @media (max-width: 520px) {
+          font-size: 14px;
+        }
+        @media (max-width: 420px) {
+          font-size: 12px;
+        }
       }
     }
     .card {
@@ -218,6 +241,17 @@ header {
 // INSTRUCTIONS
 .instructions {
   .container {
+    h2 {
+      @media (max-width: 600px) {
+        padding-top: 0rem;
+      }
+      @media (max-width: 520px) {
+        font-size: 22px;
+      }
+      @media (max-width: 420px) {
+        font-size: 18px;
+      }
+    }
     .row {
       justify-content: flex-start;
       align-items: center;
@@ -230,6 +264,15 @@ header {
       p {
         width: 70%;
         padding: 0rem 10px;
+        @media (max-width: 600px) {
+          width: 90%;
+        }
+        @media (max-width: 520px) {
+          font-size: 14px;
+        }
+        @media (max-width: 420px) {
+          font-size: 12px;
+        }
       }
     }
     h4,
@@ -237,6 +280,16 @@ header {
       padding: 2rem 0rem;
       color: #828282;
       text-decoration: none;
+      @media (max-width: 600px) {
+        padding: 1rem 0rem;
+      }
+      @media (max-width: 520px) {
+        font-size: 12px;
+        width: 100%;
+      }
+      @media (max-width: 420px) {
+        padding: 0;
+      }
     }
   }
 }

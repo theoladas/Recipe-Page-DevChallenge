@@ -60,6 +60,11 @@ p {
 input[type=checkbox] {
   margin-right: 10px;
 }
+@media (max-width: 520px) {
+  input[type=checkbox] {
+    margin-right: 5px;
+  }
+}
 
 .container {
   max-width: 1200px;
@@ -158,8 +163,38 @@ header .container h5 {
     padding: 0;
   }
 }
+@media (max-width: 520px) {
+  .container .row .info h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 420px) {
+  .container .row .info h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 520px) {
+  .container .row .info h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 420px) {
+  .container .row .info h3 {
+    font-size: 14px;
+  }
+}
 .container .row .info p {
   width: 90%;
+}
+@media (max-width: 520px) {
+  .container .row .info p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 420px) {
+  .container .row .info p {
+    font-size: 12px;
+  }
 }
 .container .row .card {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -250,6 +285,21 @@ header .container h5 {
   }
 }
 
+@media (max-width: 600px) {
+  .instructions .container h2 {
+    padding-top: 0rem;
+  }
+}
+@media (max-width: 520px) {
+  .instructions .container h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 420px) {
+  .instructions .container h2 {
+    font-size: 18px;
+  }
+}
 .instructions .container .row {
   justify-content: flex-start;
   align-items: center;
@@ -264,11 +314,45 @@ header .container h5 {
   width: 70%;
   padding: 0rem 10px;
 }
+@media (max-width: 600px) {
+  .instructions .container .row p {
+    width: 90%;
+  }
+}
+@media (max-width: 520px) {
+  .instructions .container .row p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 420px) {
+  .instructions .container .row p {
+    font-size: 12px;
+  }
+}
 .instructions .container h4,
 .instructions .container a {
   padding: 2rem 0rem;
   color: #828282;
   text-decoration: none;
+}
+@media (max-width: 600px) {
+  .instructions .container h4,
+.instructions .container a {
+    padding: 1rem 0rem;
+  }
+}
+@media (max-width: 520px) {
+  .instructions .container h4,
+.instructions .container a {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .instructions .container h4,
+.instructions .container a {
+    padding: 0;
+  }
 }
 
 footer {
