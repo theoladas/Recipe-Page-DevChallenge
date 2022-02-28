@@ -260,6 +260,10 @@ header {
         height: 20px;
         justify-self: flex-start;
         align-self: flex-start;
+        @media (max-width: 420px) {
+          width: 15px;
+          height: 15px;
+        }
       }
       p {
         width: 70%;

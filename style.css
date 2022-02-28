@@ -310,6 +310,12 @@ header .container h5 {
   justify-self: flex-start;
   align-self: flex-start;
 }
+@media (max-width: 420px) {
+  .instructions .container .row .image {
+    width: 15px;
+    height: 15px;
+  }
+}
 .instructions .container .row p {
   width: 70%;
   padding: 0rem 10px;
