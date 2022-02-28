@@ -96,8 +96,18 @@ img {
 header {
   padding-top: 2rem;
 }
+header .container .row {
+  justify-content: flex-start;
+}
+header .container .row .image {
+  width: 10px;
+  height: 10px;
+  align-self: flex-start;
+  margin-right: 10px;
+}
 header .container h5 {
   color: #4f4f4f;
+  width: 50%;
 }
 
 .container .row {

@@ -81,8 +81,18 @@ img {
 header {
   padding-top: 2rem;
   .container {
+    .row {
+      justify-content: flex-start;
+      .image {
+        width: 10px;
+        height: 10px;
+        align-self: flex-start;
+        margin-right: 10px;
+      }
+    }
     h5 {
       color: #4f4f4f;
+      width: 50%;
     }
   }
 }
