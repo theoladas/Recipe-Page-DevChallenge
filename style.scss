@@ -283,12 +283,20 @@ header {
       @media (max-width: 600px) {
         padding: 1rem 0rem;
       }
+      @media (max-width: 600px) {
+        padding: 0.5rem 0rem;
+      }
       @media (max-width: 520px) {
         font-size: 12px;
         width: 100%;
       }
       @media (max-width: 420px) {
         padding: 0;
+        text-align: center;
+        font-size: 10px;
+      }
+      @media (max-width: 345px) {
+        font-size: 9px;
       }
     }
   }
@@ -297,6 +305,9 @@ header {
 // FOOTER
 footer {
   padding-top: 4em;
+  @media (max-width: 520px) {
+    padding-top: 2em;
+  }
   .info {
     display: flex;
     align-items: center;
@@ -306,6 +317,12 @@ footer {
       color: #828282;
       font-size: 14px;
       font-weight: 700;
+      @media (max-width: 520px) {
+        font-size: 12px;
+      }
+      @media (max-width: 420px) {
+        font-size: 10px;
+      }
     }
   }
 }
