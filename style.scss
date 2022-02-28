@@ -91,6 +91,7 @@ header {
 .container {
   .row {
     justify-content: space-between;
+    align-items: center;
     .info {
       width: 70%;
       p {
@@ -106,9 +107,14 @@ header {
       .row {
         max-width: 90%;
         justify-content: center;
+
+        .fa-clock {
+          align-self: flex-start;
+        }
       }
       .yields {
-        padding: 2rem 0rem;
+        padding: 1rem 0rem;
+        align-items: center;
       }
       .column {
         width: 50%;

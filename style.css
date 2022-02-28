@@ -102,6 +102,7 @@ header .container h5 {
 
 .container .row {
   justify-content: space-between;
+  align-items: center;
 }
 .container .row .info {
   width: 70%;
@@ -120,8 +121,12 @@ header .container h5 {
   max-width: 90%;
   justify-content: center;
 }
+.container .row .card .row .fa-clock {
+  align-self: flex-start;
+}
 .container .row .card .yields {
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
+  align-items: center;
 }
 .container .row .card .column {
   width: 50%;
