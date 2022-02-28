@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://theoladas.github.io/Recipe-Page-DevChallenge/">
       Solution
     </a>
     <span> | </span>
